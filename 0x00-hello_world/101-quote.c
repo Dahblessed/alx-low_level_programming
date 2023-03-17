@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - a c programm that prints a line to he standard error
+ * main- a C program that prints a line to he standard error
  *
- * Return:1 (successful)
+ * Return: 1 (successful)
  */
 
 int main(void)
