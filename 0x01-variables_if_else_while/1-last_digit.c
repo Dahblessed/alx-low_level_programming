@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-#include <stdio.h>
+#include<stdio.h>
 /* betty style doc for function main goes there */
 /**
  * main - This program will assign a random number to the variable n
@@ -18,7 +18,7 @@ int main(void)
 	/* your code goes there */
 	m = n % 10;
 	if (m > 5)
-		printf("last digit of %d is %d  and is greater than 5", n, m);
+		printf("last digit of %d is %d and is greater than 5", n, m);
 	else if (m == 0)
 		printf("last digit of %d is %d and is 0", n, m);
 	else if (m < 6 && m != 0)
